@@ -1,7 +1,7 @@
 //imports
 const note_router = require('express').Router();
 const fs = require('fs');
-const path = requie('path');
+const path = require('path');
 const db = request('../db/db/.json');
 const uuid = require('uuid').v4;
 const { createConnection } = require('net');

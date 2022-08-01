@@ -1,25 +1,9 @@
 {
-  "dependencies": {
-    "express": "^4.18.1",
-    "inquirer": "^9.0.2",
-    "path": "^0.12.7",
-    "uuid": "^8.3.2"
-  },
-  "name": "note_taker",
-  "description": "Work with a partner to implement the following user story:",
+  "name": "02-stu-setup",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/afartuun/note_taker.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/afartuun/note_taker/issues"
-  },
-  "homepage": "https://github.com/afartuun/note_taker#readme"
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
