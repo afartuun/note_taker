@@ -8,16 +8,13 @@ const path = require('path');
 const note_routes = require('./routes/api_routes');
 
 
-
-
-
 app.get('/notes', (req, res) =>
   res.sendFile(path.join(__dirname, 'public/notes.html'))
 );
 
 
 //static file
-app.use(express.static(path.join(__dirname,'public')))
+app.use(express.static(path.join(__dirname,'public')));
 
 app.use(express.json());
 
