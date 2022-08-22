@@ -24,4 +24,5 @@ Click the Get Started button where you then will be directed to the page where i
 ## Credits
 
 You can find the github repo link on [Fartuun Ali's](https://github.com/afartuun/note_taker) github page!
+Here is the [Heroku Link]( https://git.heroku.com/note-taker-fartuun.git)
 
